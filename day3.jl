@@ -121,3 +121,77 @@ lifesupport(tdata)
 
 ##
 lifesupport(data)
+##
+mutable struct Node
+    ch0::Union{Node,Nothing}
+    ch1::Union{Node,Nothing}
+    n::Integer
+end
+
+Node() = Node(nothing, nothing, 0)
+##
+function tree_insert!(tree::Node, s::String)
+    tree.n += 1
+    if length(s) == 0
+        return
+    end
+    if s[1] == '1'
+        if isnothing(tree.ch1)
+            tree.ch1 = Node()
+        end
+        tree_insert!(tree.ch1, s[2:end])
+    else
+        if isnothing(tree.ch0)
+            tree.ch0 = Node()
+        end
+        tree_insert!(tree.ch0, s[2:end])
+    end
+end
+
+function build_tree(data)
+    tree = Node()
+    for number = data
+        tree_insert!(tree, number)
+    end
+    tree
+end
+##
+function traverse(tree::Node; most_common=true)
+    num = 0
+    while ~(isnothing(tree.ch0) && isnothing(tree.ch1))
+        num *= 2
+        if isnothing(tree.ch0)
+            num += 1
+            tree = tree.ch1
+            continue
+        end
+        if isnothing(tree.ch1)
+            tree = tree.ch0
+            continue
+        end
+        next = false
+        if (tree.ch1.n >= tree.ch0.n && most_common) || (tree.ch1.n < tree.ch0.n && ~most_common)
+            next = true
+        end
+        if next
+            num += 1
+            tree = tree.ch1
+        else
+            tree = tree.ch0
+        end
+    end
+    num
+end
+##
+tree = build_tree(tdata)
+##
+traverse(tree, most_common = false)
+##
+function lifesupport_tree(data)
+    tree = build_tree(data)
+    o2 = traverse(tree, most_common=true)
+    co2 = traverse(tree, most_common=false)
+    o2*co2
+end
+##
+lifesupport_tree(data)
