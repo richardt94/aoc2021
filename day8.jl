@@ -36,13 +36,10 @@ function out_sum(data)
             segments[[ch - 'a' + 1 for ch = c]] .= 1
             if length(c) == 2
                 one = segments
-                println("1 is $segments")
             elseif length(c) == 3
                 seven = segments
-                println("7 is $segments")
             elseif length(c) == 4
                 four = segments
-                println("4 is $segments")
             elseif length(c) == 5
                 push!(fivesegs, segments)
             elseif length(c) == 6
@@ -56,28 +53,24 @@ function out_sum(data)
                 five = f
             end
         end
-        println("5 is $five")
         six = zeros(Int, 7)
         for s = sixsegs
             if all(s .>= bd) && ~all(s .>= one)
                 six = s
             end
         end
-        println("6 is $six")
         nine = zeros(Int, 7)
         for s = sixsegs
             if all(s .>= five) && ~all(s .== six)
                 nine = s
             end
         end
-        println("9 is $nine")
         zero = zeros(Int,7)
         for s = sixsegs
             if ~(all(s .== six) || all(s .== nine))
                 zero = s
             end
         end
-        println("0 is $zero")
         three = zeros(Int, 7)
         for f = fivesegs
             if all(f .== five)
@@ -87,14 +80,12 @@ function out_sum(data)
                 three = f
             end
         end
-        println("3 is $three")
         two = zeros(Int, 7)
         for f = fivesegs
             if ~(all(f .== five) || all(f .== three))
                 two = f
             end
         end
-        println("2 is $two")
         segments = [zero, one, two, three, four, five, six, seven, eight, nine]
         onum = 0
         for outword = output
@@ -108,7 +99,6 @@ function out_sum(data)
             end
         end
         sum_ans += onum
-        println(onum)
     end
     sum_ans
 end
