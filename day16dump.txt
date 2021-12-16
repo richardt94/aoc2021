@@ -1,0 +1,924 @@
+packet version number 4 starting at index 1
+type is operator
+number of subpacket bits is 5316
+packet version number 2 starting at index 23
+type is operator
+number of subpacket bits is 70
+packet version number 4 starting at index 45
+type is operator
+number of subpacket bits is 32
+packet version number 0 starting at index 67
+type is literal
+value is 79
+finished parsing literal packet starting at 67, ending at 82
+packet version number 4 starting at index 83
+type is literal
+value is 18
+finished parsing literal packet starting at 83, ending at 98
+finished parsing operator packet starting at 45, ending at 98
+packet version number 5 starting at index 99
+type is literal
+value is 130
+finished parsing literal packet starting at 99, ending at 114
+finished parsing operator packet starting at 23, ending at 114
+packet version number 6 starting at index 115
+type is operator
+number of subpacket bits is 85
+packet version number 6 starting at index 137
+type is operator
+number of subpacket bits is 37
+packet version number 2 starting at index 159
+type is literal
+value is 17
+finished parsing literal packet starting at 159, ending at 174
+packet version number 6 starting at index 175
+type is literal
+value is 3739
+finished parsing literal packet starting at 175, ending at 195
+finished parsing operator packet starting at 137, ending at 195
+packet version number 1 starting at index 196
+type is literal
+value is 26181
+finished parsing literal packet starting at 196, ending at 221
+finished parsing operator packet starting at 115, ending at 221
+packet version number 7 starting at index 222
+type is operator
+number of subpacket bits is 57
+packet version number 7 starting at index 244
+type is literal
+value is 3381457610
+finished parsing literal packet starting at 244, ending at 289
+packet version number 3 starting at index 290
+type is literal
+value is 13
+finished parsing literal packet starting at 290, ending at 300
+finished parsing operator packet starting at 222, ending at 300
+packet version number 4 starting at index 301
+type is operator
+number of subpackets is 4
+packet version number 2 starting at index 319
+type is literal
+value is 1440
+finished parsing literal packet starting at 319, ending at 339
+packet version number 6 starting at index 340
+type is literal
+value is 6
+finished parsing literal packet starting at 340, ending at 350
+packet version number 3 starting at index 351
+type is operator
+number of subpacket bits is 10105
+packet version number 3 starting at index 373
+type is operator
+number of subpacket bits is 23998
+packet version number 1 starting at index 395
+type is operator
+number of subpacket bits is 17357
+packet version number 3 starting at index 417
+type is literal
+value is 172659535
+finished parsing literal packet starting at 417, ending at 457
+packet version number 3 starting at index 458
+type is operator
+number of subpackets is 2
+packet version number 6 starting at index 476
+type is operator
+number of subpackets is 2
+packet version number 3 starting at index 494
+type is literal
+value is 30901
+finished parsing literal packet starting at 494, ending at 519
+packet version number 6 starting at index 520
+type is literal
+value is 11
+finished parsing literal packet starting at 520, ending at 530
+finished parsing operator packet starting at 476, ending at 530
+packet version number 7 starting at index 531
+type is literal
+value is 229877055
+finished parsing literal packet starting at 531, ending at 571
+finished parsing operator packet starting at 458, ending at 571
+packet version number 3 starting at index 572
+type is operator
+number of subpackets is 2
+packet version number 7 starting at index 590
+type is literal
+value is 796
+finished parsing literal packet starting at 590, ending at 610
+packet version number 7 starting at index 611
+type is operator
+number of subpackets is 2
+packet version number 7 starting at index 629
+type is operator
+number of subpacket bits is 33
+packet version number 2 starting at index 651
+type is literal
+value is 9
+finished parsing literal packet starting at 651, ending at 661
+packet version number 0 starting at index 662
+type is literal
+value is 15
+finished parsing literal packet starting at 662, ending at 672
+packet version number 3 starting at index 673
+type is literal
+value is 7
+finished parsing literal packet starting at 673, ending at 683
+finished parsing operator packet starting at 629, ending at 683
+packet version number 7 starting at index 684
+type is operator
+number of subpackets is 3
+packet version number 7 starting at index 702
+type is literal
+value is 11
+finished parsing literal packet starting at 702, ending at 712
+packet version number 6 starting at index 713
+type is literal
+value is 4
+finished parsing literal packet starting at 713, ending at 723
+packet version number 7 starting at index 724
+type is literal
+value is 6
+finished parsing literal packet starting at 724, ending at 734
+finished parsing operator packet starting at 684, ending at 734
+finished parsing operator packet starting at 611, ending at 734
+finished parsing operator packet starting at 572, ending at 734
+packet version number 3 starting at index 735
+type is operator
+number of subpacket bits is 91
+packet version number 1 starting at index 757
+type is operator
+number of subpackets is 2
+packet version number 7 starting at index 775
+type is literal
+value is 32638
+finished parsing literal packet starting at 775, ending at 800
+packet version number 0 starting at index 801
+type is literal
+value is 32638
+finished parsing literal packet starting at 801, ending at 826
+finished parsing operator packet starting at 757, ending at 826
+packet version number 0 starting at index 827
+type is literal
+value is 3874
+finished parsing literal packet starting at 827, ending at 847
+finished parsing operator packet starting at 735, ending at 847
+packet version number 1 starting at index 848
+type is literal
+value is 43547
+finished parsing literal packet starting at 848, ending at 873
+packet version number 6 starting at index 874
+type is literal
+value is 9965
+finished parsing literal packet starting at 874, ending at 899
+packet version number 4 starting at index 900
+type is operator
+number of subpacket bits is 120
+packet version number 7 starting at index 922
+type is literal
+value is 482015
+finished parsing literal packet starting at 922, ending at 952
+packet version number 2 starting at index 953
+type is literal
+value is 3103
+finished parsing literal packet starting at 953, ending at 973
+packet version number 6 starting at index 974
+type is literal
+value is 654457
+finished parsing literal packet starting at 974, ending at 1004
+packet version number 2 starting at index 1005
+type is literal
+value is 224
+finished parsing literal packet starting at 1005, ending at 1020
+packet version number 6 starting at index 1021
+type is literal
+value is 68
+finished parsing literal packet starting at 1021, ending at 1036
+packet version number 1 starting at index 1037
+type is operator
+number of subpacket bits is 26408
+packet version number 1 starting at index 1059
+type is literal
+value is 112
+finished parsing literal packet starting at 1059, ending at 1074
+packet version number 0 starting at index 1075
+type is operator
+number of subpackets is 317
+packet version number 0 starting at index 1093
+type is literal
+value is 1328
+finished parsing literal packet starting at 1093, ending at 1113
+packet version number 0 starting at index 1114
+type is operator
+number of subpackets is 1440
+packet version number 0 starting at index 1132
+type is operator
+number of subpackets is 1837
+packet version number 0 starting at index 1150
+type is operator
+number of subpackets is 959
+packet version number 2 starting at index 1168
+type is operator
+number of subpacket bits is 17558
+packet version number 4 starting at index 1190
+type is operator
+number of subpacket bits is 24058
+packet version number 6 starting at index 1212
+type is operator
+number of subpacket bits is 15607
+packet version number 6 starting at index 1234
+type is operator
+number of subpackets is 1687
+packet version number 6 starting at index 1252
+type is literal
+value is 0
+finished parsing literal packet starting at 1252, ending at 1262
+packet version number 0 starting at index 1263
+type is operator
+number of subpacket bits is 98
+packet version number 1 starting at index 1285
+type is operator
+number of subpackets is 1339
+packet version number 2 starting at index 1303
+type is operator
+number of subpacket bits is 18291
+packet version number 6 starting at index 1325
+type is literal
+value is 6
+finished parsing literal packet starting at 1325, ending at 1335
+packet version number 3 starting at index 1336
+type is operator
+number of subpackets is 1794
+packet version number 6 starting at index 1354
+type is operator
+number of subpacket bits is 91
+packet version number 2 starting at index 1376
+type is operator
+number of subpacket bits is 1024
+packet version number 0 starting at index 1398
+type is operator
+number of subpacket bits is 17315
+packet version number 4 starting at index 1420
+type is operator
+number of subpacket bits is 7394
+packet version number 5 starting at index 1442
+type is operator
+number of subpacket bits is 8
+packet version number 3 starting at index 1464
+type is operator
+number of subpacket bits is 5603
+packet version number 6 starting at index 1486
+type is operator
+number of subpacket bits is 3684
+packet version number 5 starting at index 1508
+type is operator
+number of subpackets is 1527
+packet version number 1 starting at index 1526
+type is literal
+value is 3979
+finished parsing literal packet starting at 1526, ending at 1546
+packet version number 0 starting at index 1547
+type is operator
+number of subpacket bits is 152
+packet version number 1 starting at index 1569
+type is operator
+number of subpackets is 1402
+packet version number 7 starting at index 1587
+type is literal
+value is 0
+finished parsing literal packet starting at 1587, ending at 1597
+packet version number 1 starting at index 1598
+type is operator
+number of subpacket bits is 20432
+packet version number 5 starting at index 1620
+type is operator
+number of subpackets is 349
+packet version number 5 starting at index 1638
+type is operator
+number of subpacket bits is 4213
+packet version number 6 starting at index 1660
+type is operator
+number of subpacket bits is 1639
+packet version number 0 starting at index 1682
+type is literal
+value is 86
+finished parsing literal packet starting at 1682, ending at 1697
+packet version number 1 starting at index 1698
+type is operator
+number of subpacket bits is 21898
+packet version number 3 starting at index 1720
+type is operator
+number of subpackets is 1602
+packet version number 6 starting at index 1738
+type is operator
+number of subpacket bits is 9366
+packet version number 7 starting at index 1760
+type is literal
+value is 12
+finished parsing literal packet starting at 1760, ending at 1770
+packet version number 7 starting at index 1771
+type is operator
+number of subpackets is 1537
+packet version number 0 starting at index 1789
+type is operator
+number of subpacket bits is 75
+packet version number 0 starting at index 1811
+type is operator
+number of subpacket bits is 24299
+packet version number 4 starting at index 1833
+type is operator
+number of subpacket bits is 1792
+packet version number 0 starting at index 1855
+type is operator
+number of subpacket bits is 20360
+packet version number 0 starting at index 1877
+type is operator
+number of subpacket bits is 16512
+packet version number 0 starting at index 1899
+type is operator
+number of subpackets is 513
+packet version number 0 starting at index 1917
+type is operator
+number of subpacket bits is 19201
+packet version number 0 starting at index 1939
+type is operator
+number of subpackets is 1552
+packet version number 0 starting at index 1957
+type is operator
+number of subpackets is 840
+packet version number 0 starting at index 1975
+type is operator
+number of subpacket bits is 13786
+packet version number 4 starting at index 1997
+type is operator
+number of subpacket bits is 1552
+packet version number 0 starting at index 2019
+type is operator
+number of subpackets is 994
+packet version number 0 starting at index 2037
+type is operator
+number of subpacket bits is 9832
+packet version number 0 starting at index 2059
+type is operator
+number of subpacket bits is 8395
+packet version number 4 starting at index 2081
+type is operator
+number of subpacket bits is 1720
+packet version number 0 starting at index 2103
+type is operator
+number of subpacket bits is 18816
+packet version number 0 starting at index 2125
+type is operator
+number of subpackets is 512
+packet version number 1 starting at index 2143
+type is operator
+number of subpackets is 1296
+packet version number 0 starting at index 2161
+type is operator
+number of subpackets is 121
+packet version number 0 starting at index 2179
+type is operator
+number of subpacket bits is 732
+packet version number 3 starting at index 2201
+type is operator
+number of subpacket bits is 19457
+packet version number 0 starting at index 2223
+type is operator
+number of subpackets is 1025
+packet version number 3 starting at index 2241
+type is operator
+number of subpacket bits is 16
+packet version number 6 starting at index 2263
+type is operator
+number of subpacket bits is 15938
+packet version number 6 starting at index 2285
+type is operator
+number of subpacket bits is 14984
+packet version number 0 starting at index 2307
+type is operator
+number of subpackets is 1477
+packet version number 5 starting at index 2325
+type is operator
+number of subpacket bits is 8001
+packet version number 4 starting at index 2347
+type is operator
+number of subpacket bits is 20677
+packet version number 0 starting at index 2369
+type is operator
+number of subpacket bits is 1346
+packet version number 2 starting at index 2391
+type is operator
+number of subpackets is 1970
+packet version number 6 starting at index 2409
+type is operator
+number of subpackets is 1828
+packet version number 7 starting at index 2427
+type is operator
+number of subpacket bits is 4112
+packet version number 0 starting at index 2449
+type is operator
+number of subpackets is 980
+packet version number 6 starting at index 2467
+type is operator
+number of subpackets is 1718
+packet version number 0 starting at index 2485
+type is operator
+number of subpacket bits is 8485
+packet version number 4 starting at index 2507
+type is operator
+number of subpacket bits is 18706
+packet version number 3 starting at index 2529
+type is operator
+number of subpacket bits is 26557
+packet version number 7 starting at index 2551
+type is operator
+number of subpackets is 1888
+packet version number 4 starting at index 2569
+type is literal
+value is 48
+finished parsing literal packet starting at 2569, ending at 2584
+packet version number 6 starting at index 2585
+type is literal
+value is 4
+finished parsing literal packet starting at 2585, ending at 2595
+packet version number 0 starting at index 2596
+type is operator
+number of subpacket bits is 22195
+packet version number 0 starting at index 2618
+type is operator
+number of subpackets is 888
+packet version number 0 starting at index 2636
+type is operator
+number of subpackets is 72
+packet version number 6 starting at index 2654
+type is literal
+value is 66
+finished parsing literal packet starting at 2654, ending at 2669
+packet version number 0 starting at index 2670
+type is literal
+value is 5186
+finished parsing literal packet starting at 2670, ending at 2695
+packet version number 0 starting at index 2696
+type is operator
+number of subpackets is 5
+packet version number 4 starting at index 2714
+type is literal
+value is 47679
+finished parsing literal packet starting at 2714, ending at 2739
+packet version number 5 starting at index 2740
+type is literal
+value is 84
+finished parsing literal packet starting at 2740, ending at 2755
+packet version number 5 starting at index 2756
+type is literal
+value is 251511348
+finished parsing literal packet starting at 2756, ending at 2796
+packet version number 1 starting at index 2797
+type is literal
+value is 909337808
+finished parsing literal packet starting at 2797, ending at 2842
+packet version number 7 starting at index 2843
+type is literal
+value is 9
+finished parsing literal packet starting at 2843, ending at 2853
+finished parsing operator packet starting at 2696, ending at 2853
+packet version number 7 starting at index 2854
+type is operator
+number of subpacket bits is 9728
+packet version number 0 starting at index 2876
+type is operator
+number of subpacket bits is 20779
+packet version number 3 starting at index 2898
+type is literal
+value is 14
+finished parsing literal packet starting at 2898, ending at 2908
+packet version number 4 starting at index 2909
+type is operator
+number of subpacket bits is 76
+packet version number 4 starting at index 2931
+type is literal
+value is 13
+finished parsing literal packet starting at 2931, ending at 2941
+packet version number 2 starting at index 2942
+type is operator
+number of subpacket bits is 182
+packet version number 2 starting at index 2964
+type is operator
+number of subpacket bits is 31129
+packet version number 1 starting at index 2986
+type is operator
+number of subpacket bits is 25738
+packet version number 1 starting at index 3008
+type is operator
+number of subpacket bits is 16505
+packet version number 7 starting at index 3030
+type is operator
+number of subpacket bits is 23680
+packet version number 0 starting at index 3052
+type is literal
+value is 0
+finished parsing literal packet starting at 3052, ending at 3062
+packet version number 6 starting at index 3063
+type is operator
+number of subpackets is 1659
+packet version number 1 starting at index 3081
+type is operator
+number of subpacket bits is 10384
+packet version number 0 starting at index 3103
+type is operator
+number of subpacket bits is 28120
+packet version number 0 starting at index 3125
+type is operator
+number of subpackets is 588
+packet version number 7 starting at index 3143
+type is operator
+number of subpackets is 1966
+packet version number 2 starting at index 3161
+type is operator
+number of subpacket bits is 15016
+packet version number 6 starting at index 3183
+type is operator
+number of subpacket bits is 13734
+packet version number 1 starting at index 3205
+type is literal
+value is 0
+finished parsing literal packet starting at 3205, ending at 3215
+packet version number 0 starting at index 3216
+type is operator
+number of subpacket bits is 30600
+packet version number 0 starting at index 3238
+type is operator
+number of subpackets is 1732
+packet version number 1 starting at index 3256
+type is operator
+number of subpacket bits is 4295
+packet version number 2 starting at index 3278
+type is literal
+value is 8
+finished parsing literal packet starting at 3278, ending at 3288
+packet version number 0 starting at index 3289
+type is operator
+number of subpackets is 1863
+packet version number 0 starting at index 3307
+type is operator
+number of subpacket bits is 5191
+packet version number 5 starting at index 3329
+type is operator
+number of subpacket bits is 16
+packet version number 5 starting at index 3351
+type is operator
+number of subpacket bits is 13895
+packet version number 5 starting at index 3373
+type is operator
+number of subpacket bits is 4044
+packet version number 2 starting at index 3395
+type is operator
+number of subpacket bits is 26432
+packet version number 0 starting at index 3417
+type is operator
+number of subpacket bits is 31124
+packet version number 6 starting at index 3439
+type is operator
+number of subpackets is 1557
+packet version number 4 starting at index 3457
+type is operator
+number of subpacket bits is 3284
+packet version number 3 starting at index 3479
+type is operator
+number of subpackets is 332
+packet version number 4 starting at index 3497
+type is operator
+number of subpacket bits is 16544
+packet version number 0 starting at index 3519
+type is operator
+number of subpackets is 1333
+packet version number 6 starting at index 3537
+type is operator
+number of subpacket bits is 6753
+packet version number 4 starting at index 3559
+type is operator
+number of subpackets is 1366
+packet version number 2 starting at index 3577
+type is operator
+number of subpackets is 576
+packet version number 2 starting at index 3595
+type is operator
+number of subpacket bits is 12292
+packet version number 7 starting at index 3617
+type is operator
+number of subpackets is 1330
+packet version number 6 starting at index 3635
+type is operator
+number of subpacket bits is 499
+packet version number 4 starting at index 3657
+type is operator
+number of subpackets is 1983
+packet version number 7 starting at index 3675
+type is operator
+number of subpackets is 723
+packet version number 3 starting at index 3693
+type is operator
+number of subpacket bits is 32725
+packet version number 3 starting at index 3715
+type is operator
+number of subpackets is 1025
+packet version number 1 starting at index 3733
+type is operator
+number of subpacket bits is 16406
+packet version number 4 starting at index 3755
+type is operator
+number of subpackets is 670
+packet version number 4 starting at index 3773
+type is operator
+number of subpacket bits is 18249
+packet version number 3 starting at index 3795
+type is operator
+number of subpacket bits is 30429
+packet version number 4 starting at index 3817
+type is operator
+number of subpacket bits is 10621
+packet version number 1 starting at index 3839
+type is operator
+number of subpackets is 1120
+packet version number 0 starting at index 3857
+type is operator
+number of subpackets is 813
+packet version number 5 starting at index 3875
+type is operator
+number of subpacket bits is 4898
+packet version number 5 starting at index 3897
+type is literal
+value is 0
+finished parsing literal packet starting at 3897, ending at 3907
+packet version number 1 starting at index 3908
+type is operator
+number of subpackets is 1215
+packet version number 6 starting at index 3926
+type is operator
+number of subpackets is 1943
+packet version number 7 starting at index 3944
+type is operator
+number of subpacket bits is 7264
+packet version number 0 starting at index 3966
+type is operator
+number of subpackets is 1888
+packet version number 0 starting at index 3984
+type is operator
+number of subpackets is 1837
+packet version number 1 starting at index 4002
+type is operator
+number of subpacket bits is 23511
+packet version number 1 starting at index 4024
+type is operator
+number of subpackets is 564
+packet version number 5 starting at index 4042
+type is operator
+number of subpackets is 1667
+packet version number 6 starting at index 4060
+type is operator
+number of subpacket bits is 8984
+packet version number 0 starting at index 4082
+type is operator
+number of subpackets is 192
+packet version number 0 starting at index 4100
+type is operator
+number of subpackets is 1553
+packet version number 0 starting at index 4118
+type is operator
+number of subpackets is 356
+packet version number 0 starting at index 4136
+type is operator
+number of subpacket bits is 1612
+packet version number 2 starting at index 4158
+type is operator
+number of subpackets is 742
+packet version number 2 starting at index 4176
+type is operator
+number of subpacket bits is 28024
+packet version number 1 starting at index 4198
+type is operator
+number of subpacket bits is 1536
+packet version number 5 starting at index 4220
+type is operator
+number of subpacket bits is 15824
+packet version number 7 starting at index 4242
+type is operator
+number of subpackets is 1025
+packet version number 0 starting at index 4260
+type is operator
+number of subpacket bits is 31770
+packet version number 2 starting at index 4282
+type is literal
+value is 2188
+finished parsing literal packet starting at 4282, ending at 4302
+packet version number 7 starting at index 4303
+type is operator
+number of subpacket bits is 140
+packet version number 2 starting at index 4325
+type is literal
+value is 871
+finished parsing literal packet starting at 4325, ending at 4345
+packet version number 4 starting at index 4346
+type is literal
+value is 3257895716
+finished parsing literal packet starting at 4346, ending at 4391
+packet version number 1 starting at index 4392
+type is literal
+value is 66
+finished parsing literal packet starting at 4392, ending at 4407
+packet version number 3 starting at index 4408
+type is literal
+value is 7
+finished parsing literal packet starting at 4408, ending at 4418
+packet version number 5 starting at index 4419
+type is literal
+value is 2738196270
+finished parsing literal packet starting at 4419, ending at 4464
+finished parsing operator packet starting at 4303, ending at 4464
+packet version number 5 starting at index 4465
+type is operator
+number of subpacket bits is 161
+packet version number 0 starting at index 4487
+type is operator
+number of subpackets is 3
+packet version number 3 starting at index 4505
+type is literal
+value is 9
+finished parsing literal packet starting at 4505, ending at 4515
+packet version number 5 starting at index 4516
+type is literal
+value is 11
+finished parsing literal packet starting at 4516, ending at 4526
+packet version number 0 starting at index 4527
+type is literal
+value is 8
+finished parsing literal packet starting at 4527, ending at 4537
+finished parsing operator packet starting at 4487, ending at 4537
+packet version number 3 starting at index 4538
+type is operator
+number of subpacket bits is 33
+packet version number 7 starting at index 4560
+type is literal
+value is 11
+finished parsing literal packet starting at 4560, ending at 4570
+packet version number 5 starting at index 4571
+type is literal
+value is 4
+finished parsing literal packet starting at 4571, ending at 4581
+packet version number 5 starting at index 4582
+type is literal
+value is 15
+finished parsing literal packet starting at 4582, ending at 4592
+finished parsing operator packet starting at 4538, ending at 4592
+packet version number 1 starting at index 4593
+type is operator
+number of subpacket bits is 33
+packet version number 6 starting at index 4615
+type is literal
+value is 14
+finished parsing literal packet starting at 4615, ending at 4625
+packet version number 7 starting at index 4626
+type is literal
+value is 5
+finished parsing literal packet starting at 4626, ending at 4636
+packet version number 6 starting at index 4637
+type is literal
+value is 8
+finished parsing literal packet starting at 4637, ending at 4647
+finished parsing operator packet starting at 4593, ending at 4647
+finished parsing operator packet starting at 4465, ending at 4647
+packet version number 3 starting at index 4648
+type is operator
+number of subpacket bits is 32
+packet version number 3 starting at index 4670
+type is literal
+value is 240
+finished parsing literal packet starting at 4670, ending at 4685
+packet version number 0 starting at index 4686
+type is operator
+number of subpacket bits is 8825
+packet version number 0 starting at index 4708
+type is operator
+number of subpacket bits is 9262
+packet version number 4 starting at index 4730
+type is operator
+number of subpacket bits is 2688
+packet version number 0 starting at index 4752
+type is operator
+number of subpackets is 116
+packet version number 2 starting at index 4770
+type is operator
+number of subpacket bits is 8796
+packet version number 3 starting at index 4792
+type is operator
+number of subpacket bits is 16385
+packet version number 0 starting at index 4814
+type is operator
+number of subpackets is 1567
+packet version number 6 starting at index 4832
+type is operator
+number of subpackets is 1313
+packet version number 3 starting at index 4850
+type is operator
+number of subpacket bits is 15480
+packet version number 2 starting at index 4872
+type is operator
+number of subpacket bits is 775
+packet version number 1 starting at index 4894
+type is operator
+number of subpacket bits is 973
+packet version number 1 starting at index 4916
+type is operator
+number of subpacket bits is 21293
+packet version number 5 starting at index 4938
+type is operator
+number of subpacket bits is 64
+packet version number 1 starting at index 4960
+type is literal
+value is 147
+finished parsing literal packet starting at 4960, ending at 4975
+packet version number 6 starting at index 4976
+type is literal
+value is 47
+finished parsing literal packet starting at 4976, ending at 4991
+packet version number 0 starting at index 4992
+type is literal
+value is 46
+finished parsing literal packet starting at 4992, ending at 5007
+packet version number 1 starting at index 5008
+type is literal
+value is 222
+finished parsing literal packet starting at 5008, ending at 5023
+finished parsing operator packet starting at 4938, ending at 5023
+packet version number 0 starting at index 5024
+type is operator
+number of subpacket bits is 76
+packet version number 0 starting at index 5046
+type is literal
+value is 220
+finished parsing literal packet starting at 5046, ending at 5061
+packet version number 6 starting at index 5062
+type is operator
+number of subpackets is 2
+packet version number 1 starting at index 5080
+type is literal
+value is 101
+finished parsing literal packet starting at 5080, ending at 5095
+packet version number 6 starting at index 5096
+type is literal
+value is 63580
+finished parsing literal packet starting at 5096, ending at 5121
+finished parsing operator packet starting at 5062, ending at 5121
+finished parsing operator packet starting at 5024, ending at 5121
+packet version number 2 starting at index 5122
+type is operator
+number of subpackets is 1
+packet version number 5 starting at index 5140
+type is literal
+value is 137990907
+finished parsing literal packet starting at 5140, ending at 5180
+finished parsing operator packet starting at 5122, ending at 5180
+packet version number 1 starting at index 5181
+type is operator
+number of subpackets is 2
+packet version number 5 starting at index 5199
+type is literal
+value is 153
+finished parsing literal packet starting at 5199, ending at 5214
+packet version number 5 starting at index 5215
+type is operator
+number of subpackets is 2
+packet version number 6 starting at index 5233
+type is operator
+number of subpacket bits is 33
+packet version number 3 starting at index 5255
+type is literal
+value is 12
+finished parsing literal packet starting at 5255, ending at 5265
+packet version number 5 starting at index 5266
+type is literal
+value is 11
+finished parsing literal packet starting at 5266, ending at 5276
+packet version number 6 starting at index 5277
+type is literal
+value is 14
+finished parsing literal packet starting at 5277, ending at 5287
+finished parsing operator packet starting at 5233, ending at 5287
+packet version number 7 starting at index 5288
+type is operator
+number of subpackets is 3
+packet version number 2 starting at index 5306
+type is literal
+value is 14
+finished parsing literal packet starting at 5306, ending at 5316
+packet version number 5 starting at index 5317
+type is literal
+value is 9
+finished parsing literal packet starting at 5317, ending at 5327
+packet version number 5 starting at index 5328
+type is literal
+value is 4
+finished parsing literal packet starting at 5328, ending at 5338
+finished parsing operator packet starting at 5288, ending at 5338
+finished parsing operator packet starting at 5215, ending at 5338
+finished parsing operator packet starting at 5181, ending at 5338
+packet version number 0 starting at index 5339
+type is operator
