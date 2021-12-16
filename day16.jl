@@ -54,7 +54,7 @@ function parse_packet_vnums(ind, packet)
         i = ind + 6
         chunk = parse(Int, packet[i:i+4]; base=2)
         num = chunk % 16
-        while chunk > 16
+        while chunk >= 16
             num *= 16
             i += 5
             chunk = parse(Int, packet[i:i+4]; base=2)
@@ -106,7 +106,118 @@ subpack_bits = bits(tdata[3])
 ##
 parse_packet_vnums(1, subpack_bits)
 ##
-open("day16dump.txt", "w") do dump
-    redirect_stdout(dump)
-    parse_packet_vnums(1, bits(data[1]))
+parse_packet_vnums(1, bits(data[1]))
+##
+function parse_packet_ops(ind, packet)
+    version_number = parse(Int, packet[ind:ind+2]; base=2)
+    println("packet version number $version_number starting at index $ind")
+    type = parse(Int, packet[ind+3:ind+5]; base=2)
+    types = ["sum", "prod", "min", "max", "literal", "gt", "lt", "eq"]
+    typestring = types[type+1]
+    println("type is $typestring")
+    if type == 4
+        i = ind + 6
+        chunk = parse(Int, packet[i:i+4]; base=2)
+        num = chunk % 16
+        while chunk >= 16
+            num *= 16
+            i += 5
+            chunk = parse(Int, packet[i:i+4]; base=2)
+            num += chunk % 16
+        end
+        println("value is $num")
+        bitlength = i + 5 - ind
+        println("finished parsing literal packet starting at $ind, ending at $(i+4)")
+        return (num, bitlength)
+    end
+    res = (type == 0) * 0 + (type == 1) * 1 + (type >= 2) * -1
+    type_id = packet[ind+6] == '1'
+    if type_id
+        total_packets_sub = parse(Int, packet[ind+7:ind+17]; base=2)
+        println("number of subpackets is $total_packets_sub")
+        subind = ind + 18
+        for _ = 1:total_packets_sub
+            (val, bl) = parse_packet_ops(subind, packet)
+            if type == 0
+                res += val
+            elseif type == 1
+                res *= val
+            elseif type == 2
+                if val < res || res < 0
+                    res = val
+                end
+            elseif type == 3
+                if val > res
+                    res = val
+                end
+            elseif type == 5
+                if res < 0
+                    res = val
+                else
+                    res = 1 * (res > val)
+                end
+            elseif type == 6
+                if res < 0
+                    res = val
+                else
+                    res = 1 * (res < val)
+                end
+            elseif type == 7
+                if res < 0
+                    res = val
+                else
+                    res = 1 * (res == val)
+                end
+            end
+            subind += bl
+        end
+        bitlength = subind - ind
+        println("finished parsing $typestring packet starting at $ind, ending at $(subind-1)")
+    else
+        total_bits_sub = parse(Int, packet[ind+7:ind+21]; base=2)
+        println("number of subpacket bits is $total_bits_sub")
+        subind = ind + 22
+        while (subind - (ind + 22)) < total_bits_sub
+            (val, bl) = parse_packet_ops(subind, packet)
+            if type == 0
+                res += val
+            elseif type == 1
+                res *= val
+            elseif type == 2
+                if val < res || res < 0
+                    res = val
+                end
+            elseif type == 3
+                if val > res
+                    res = val
+                end
+            elseif type == 5
+                if res < 0
+                    res = val
+                else
+                    res = 1 * (res > val)
+                end
+            elseif type == 6
+                if res < 0
+                    res = val
+                else
+                    res = 1 * (res < val)
+                end
+            elseif type == 7
+                if res < 0
+                    res = val
+                else
+                    res = 1 * (res == val)
+                end
+            end
+            subind += bl
+        end
+        bitlength = subind - ind
+        println("finished parsing $typestring packet starting at $ind, ending at $(subind-1)")
+    end
+    return (res, bitlength)
+
 end
+##
+parse_packet_ops(1,bits(data[1]))
+##
