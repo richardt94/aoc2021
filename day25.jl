@@ -4,39 +4,38 @@ tdata = readlines("test25.txt")
 function nsteps(data)
     m = length(data)
     n = length(data[1])
-    east = Set()
-    south = Set()
+    state = zeros(Int, m, n)
     for (y, line) in enumerate(data), (x, ch) in enumerate(line)
-        ch == 'v' && push!(south, (x-1,y-1))
-        ch == '>' && push!(east, (x-1,y-1))
+        ch == 'v' && (state[y,x] = 2)
+        ch == '>' && (state[y,x] = 1)
     end
     
     ns = 0
     done = false
     while ~done
         done = true
-        neast = Set()
-        nsouth = Set()
-        for (x,y) in east
-            proposed = ((x+1)%n,y)
-            if proposed in east || proposed in south
-                push!(neast, (x,y))
+        nstate = zeros(Int, m, n)
+        for y in 1:m, x in 1:n
+            state[y,x] != 1 && continue
+            px = x%n + 1
+            if state[y,px] > 0
+                nstate[y,x] = 1
             else
                 done = false
-                push!(neast, proposed)
+                nstate[y,px] = 1
             end
         end
-        east = neast
-        for (x,y) in south
-            proposed = (x,(y+1)%m)
-            if proposed in east || proposed in south
-                push!(nsouth, (x,y))
+        for y in 1:m, x in 1:n
+            state[y,x] != 2 && continue
+            py = y%m + 1
+            if state[py,x] == 2 || nstate[py,x] == 1
+                nstate[y,x] = 2
             else
                 done = false
-                push!(nsouth, proposed)
+                nstate[py,x] = 2
             end
         end
-        south = nsouth
+        state = nstate
         ns += 1
     end
     ns
